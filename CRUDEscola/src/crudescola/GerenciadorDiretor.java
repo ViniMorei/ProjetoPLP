@@ -9,6 +9,8 @@ public class GerenciadorDiretor {
     
     public GerenciadorDiretor(){
         leitura = new Scanner(System.in);
+        
+        diretor = new Diretor("Keylla Cileny", "999", "Boiologia", 10000);
     }
 
     public void cadDiretor(){

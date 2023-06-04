@@ -11,6 +11,13 @@ public class GerenciadorCoordenadores {
     public GerenciadorCoordenadores() {
         coordenadores = new ArrayList();
         leitura = new Scanner(System.in);
+        
+        Coordenador vini = new Coordenador("Vinicius Moreira", "333", "Letras",4000);
+        coordenadores.add(vini);
+        Coordenador matheus = new Coordenador("Matheus Andrade", "444", "Matematica",3000);
+        coordenadores.add(matheus);
+        Coordenador estefane = new Coordenador("Estefane Andrade", "555", "Historia",3000);
+        coordenadores.add(estefane);
     }
     
     public void cadCoordenador(){

@@ -11,6 +11,10 @@ public class GerenciadorProfessores {
     public GerenciadorProfessores() {
         professores = new ArrayList();
         leitura = new Scanner(System.in);
+        
+        Professor professor = new Professor("Maximus Saulo","000","Engenharia de Software",5000,
+                                    40,"Logica de Programacao");
+        professores.add(professor);
     }
     
     public void cadProfessor(){
