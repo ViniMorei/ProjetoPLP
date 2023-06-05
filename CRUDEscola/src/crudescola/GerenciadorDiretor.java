@@ -1,19 +1,24 @@
 package crudescola;
 
+//Importando a classe Scanner para que o programa tenha suporte a entrada de dados
 import java.util.Scanner;
 
 //Classe com implementação das funções de CRUD do diretor
 public class GerenciadorDiretor {
+    //Atributos
     private Diretor diretor;
     private Scanner leitura;
     
+    //Método construtor, inicializado de maneira que já exista um diretor ao iniciar o programa
     public GerenciadorDiretor(){
         leitura = new Scanner(System.in);
         
         diretor = new Diretor("Keylla Cileny", "999", "Boiologia", 10000);
     }
 
+    //Método utilizado para criar um objeto diretor
     public void cadDiretor(){
+        //Recebendo os atributos do diretor
         System.out.println("Informe os dados do diretor:");
         System.out.print("Nome: ");
         String nome = leitura.nextLine();
@@ -26,9 +31,11 @@ public class GerenciadorDiretor {
         leitura.nextLine();
         System.out.println();
         
+        //Usando os valores recebidos por input como parâmetros do método construtor da classe Diretor
         diretor = new Diretor(nome,cpf,form,sal);        
     }
     
+    //Método utilizado para mostrar ao usuário o diretor atual
     public void lerDiretor(){
         System.out.println("Diretor atual: ");
         System.out.println("Nome: " + diretor.getNome());
@@ -38,6 +45,7 @@ public class GerenciadorDiretor {
         System.out.println();
     }
     
+    //Método utilizado para alterar os dados do diretor cadastrado
     public void alterarDiretor(){
         System.out.println("Informe os dados do novo diretor:");
         System.out.print("Nome: ");
@@ -53,6 +61,7 @@ public class GerenciadorDiretor {
         diretor = new Diretor(nome,cpf,form,sal);         
     }
     
+    //Método utilizado para "excluir" o diretor cadastrado
     public void excluirDiretor(){
         diretor.setNome("");
         diretor.setCpf("");

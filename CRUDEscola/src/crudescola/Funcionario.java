@@ -6,7 +6,7 @@ public abstract class Funcionario {
     public String nome, cpf, formacao;
     public float salario;
     
-    //Métodos
+    //Método construtor
     public Funcionario(String nome, String cpf, String formacao, float salario) {
         this.nome = nome;
         this.cpf = cpf;

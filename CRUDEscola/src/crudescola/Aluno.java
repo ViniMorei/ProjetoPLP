@@ -1,10 +1,13 @@
 package crudescola;
 
+//Classe aluno
 public class Aluno {
+    //Atributos
     private String nome, matricula;
     private int idade;
     private int turma;
 
+    //Método construtor
     public Aluno(String nome, String matricula, int idade, int turma) {
         this.nome = nome;
         this.matricula = matricula;
@@ -12,6 +15,7 @@ public class Aluno {
         this.turma = turma;
     }
 
+    //Getters e setters
     public String getNome() {
         return nome;
     }
