@@ -24,7 +24,7 @@ public class GerenciadorCoordenadores {
     }
     
     //Método utilizado para adicionar um coordenador na lista de coordenadores cadastrados
-    public void cadCoordenador(){
+    public void cadastrar(){
         //Recebe os atributos do coordenador
         System.out.println("Informe os dados do coordenador:");
         System.out.print("Nome: ");
@@ -46,7 +46,7 @@ public class GerenciadorCoordenadores {
     }
     
     //Método utilizado para mostrar ao usuário a lista de coordenadores cadastrados
-    public void lerCoordenadores() {
+    public void visualizar() {
         System.out.println("Lista de coordenadores cadastrados:");
         //Laço de repetição que percorre toda a lista
         for (int i = 0; i < coordenadores.size(); i++) {
@@ -61,7 +61,7 @@ public class GerenciadorCoordenadores {
     }
     
     //Método utilizado para editar os dados de um determinado coordenador, passado o índice
-    public void alterarCoordenador() {
+    public void alterar() {
         System.out.print("Digite o índice do coordenador a ser alterado: ");
         int indice = leitura.nextInt();
         leitura.nextLine();
@@ -95,7 +95,7 @@ public class GerenciadorCoordenadores {
     }    
     
     //Método utilizado para eliminar um coordenador da lista de coordenadores cadastrados
-    public void excluirCoordenador() {
+    public void excluir() {
         System.out.print("Digite o índice do coordenador a ser excluído: ");
         int indice = leitura.nextInt();
         leitura.nextLine();

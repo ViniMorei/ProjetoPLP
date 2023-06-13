@@ -17,7 +17,7 @@ public class GerenciadorDiretor {
     }
 
     //Método utilizado para criar um objeto diretor
-    public void cadDiretor(){
+    public void cadastrar(){
         //Recebendo os atributos do diretor
         System.out.println("Informe os dados do diretor:");
         System.out.print("Nome: ");
@@ -36,7 +36,7 @@ public class GerenciadorDiretor {
     }
     
     //Método utilizado para mostrar ao usuário o diretor atual
-    public void lerDiretor(){
+    public void visualizar(){
         System.out.println("Diretor atual: ");
         System.out.println("Nome: " + diretor.getNome());
         System.out.println("CPF: " + diretor.getCpf());
@@ -46,7 +46,7 @@ public class GerenciadorDiretor {
     }
     
     //Método utilizado para alterar os dados do diretor cadastrado
-    public void alterarDiretor(){
+    public void alterar(){
         System.out.println("Informe os dados do novo diretor:");
         System.out.print("Nome: ");
         String nome = leitura.nextLine();
@@ -62,7 +62,7 @@ public class GerenciadorDiretor {
     }
     
     //Método utilizado para "excluir" o diretor cadastrado
-    public void excluirDiretor(){
+    public void excluir(){
         diretor.setNome("");
         diretor.setCpf("");
         diretor.setFormacao("");

@@ -21,7 +21,7 @@ public class GerenciadorProfessores {
     }
     
     //Método utilizado para adicionar um professor na lista de professores cadastrados
-    public void cadProfessor(){
+    public void cadastrar(){
         //Recebe os atributos do objeto professor por input
         System.out.println("Informe os dados do professor:");
         System.out.print("Nome: ");
@@ -47,7 +47,7 @@ public class GerenciadorProfessores {
     }
     
     //Método utilizado para mostrar a lista dos professores cadastrados ao usuário
-    public void lerProfessores() {
+    public void visualizar() {
         System.out.println("Lista de professores cadastrados:");
         //Laço de repetição que irá percorrer toda a lista
         for (int i = 0; i < professores.size(); i++) {
@@ -64,7 +64,7 @@ public class GerenciadorProfessores {
     }
     
     //Método utilizado para editar os dados de um professor, passado o índice do mesmo
-    public void alterarProfessor() {
+    public void alterar() {
         System.out.print("Digite o índice do professor a ser alterado: ");
         int indice = leitura.nextInt();
         leitura.nextLine();
@@ -104,7 +104,7 @@ public class GerenciadorProfessores {
     }    
     
     //Método utilizado para tirar um professor da lista, passado o índice do mesmo
-    public void excluirProfessor() {
+    public void excluir() {
         System.out.print("Digite o índice do professor a ser excluído: ");
         int indice = leitura.nextInt();
         leitura.nextLine();

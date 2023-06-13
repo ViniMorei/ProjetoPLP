@@ -40,11 +40,11 @@ public class CRUDEscola {
                     opcao2 = leitura.nextInt();
                     
                     switch (opcao2){
-                        case 1 -> alunos.cadAluno();
-                        case 2 -> professores.cadProfessor();
-                        case 3 -> coordenadores.cadCoordenador();
-                        case 4 -> diretor.cadDiretor();
-                        case 5 -> turmas.cadTurma();
+                        case 1 -> alunos.cadastrar();
+                        case 2 -> professores.cadastrar();
+                        case 3 -> coordenadores.cadastrar();
+                        case 4 -> diretor.cadastrar();
+                        case 5 -> turmas.cadastrar();
                         case 0 -> System.out.println("Voltando...");
                         default -> System.out.println("Opcao invalida!");
                     }
@@ -61,11 +61,11 @@ public class CRUDEscola {
                     opcao2 = leitura.nextInt();
                     
                     switch (opcao2){
-                        case 1 -> alunos.lerAlunos();
-                        case 2 -> professores.lerProfessores();
-                        case 3 -> coordenadores.lerCoordenadores();
-                        case 4 -> diretor.lerDiretor();
-                        case 5 -> turmas.lerTurmas();
+                        case 1 -> alunos.visualizar();
+                        case 2 -> professores.visualizar();
+                        case 3 -> coordenadores.visualizar();
+                        case 4 -> diretor.visualizar();
+                        case 5 -> turmas.visualizar();
                         case 0 -> System.out.println("Voltando...");
                         default -> System.out.println("Opcao invalida!");
                     }
@@ -81,11 +81,11 @@ public class CRUDEscola {
                     opcao2 = leitura.nextInt();
                     
                     switch (opcao2){
-                        case 1 -> alunos.alterarAluno();
-                        case 2 -> professores.alterarProfessor();
-                        case 3 -> coordenadores.alterarCoordenador();
-                        case 4 -> diretor.alterarDiretor();
-                        case 5 -> turmas.alterarTurma();
+                        case 1 -> alunos.alterar();
+                        case 2 -> professores.alterar();
+                        case 3 -> coordenadores.alterar();
+                        case 4 -> diretor.alterar();
+                        case 5 -> turmas.alterar();
                         case 0 -> System.out.println("Voltando...");
                         default -> System.out.println("Opcao invalida!");
                     }
@@ -101,11 +101,11 @@ public class CRUDEscola {
                     opcao2 = leitura.nextInt();
                     
                     switch (opcao2){
-                        case 1 -> alunos.excluirAluno();
-                        case 2 -> professores.excluirProfessor();
-                        case 3 -> coordenadores.excluirCoordenador();
-                        case 4 -> diretor.excluirDiretor();
-                        case 5 -> turmas.excluirTurma();
+                        case 1 -> alunos.excluir();
+                        case 2 -> professores.excluir();
+                        case 3 -> coordenadores.excluir();
+                        case 4 -> diretor.excluir();
+                        case 5 -> turmas.excluir();
                         case 0 -> System.out.println("Voltando...");
                         default -> System.out.println("Opcao invalida!");
                     }

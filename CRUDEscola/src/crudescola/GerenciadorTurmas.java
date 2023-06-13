@@ -20,7 +20,7 @@ public class GerenciadorTurmas {
     }
     
     //Método utilizado para adicionar uma turma na lista de turmas cadstradas
-    public void cadTurma(){
+    public void cadastrar(){
         //Pede os atributos da turma e armazena em variáveis
         System.out.println("Informe os dados da turma:");
         System.out.print("Serie: ");
@@ -39,7 +39,7 @@ public class GerenciadorTurmas {
     }
     
     //Método utilizado para mostrar ao usuário a lista das turmas cadastradas
-    public void lerTurmas() {
+    public void visualizar() {
         System.out.println("Lista de turmas cadastradas:");
         //Laço de repetição que irá percorrer toda a lista
         for (int i = 0; i < turmas.size(); i++) {
@@ -53,7 +53,7 @@ public class GerenciadorTurmas {
     }
     
     //Método utilizado para editar os dados de uma turma, passado seu índice
-    public void alterarTurma() {
+    public void alterar() {
         System.out.print("Digite o índice da Turma a ser alterada: ");
         int indice = leitura.nextInt();
         leitura.nextLine();
@@ -84,7 +84,7 @@ public class GerenciadorTurmas {
     }    
     
     //Método utilizado para eliminar uma turma da lista, passado seu índice
-    public void excluirTurma() {
+    public void excluir() {
         System.out.print("Digite o índice da turma a ser excluída: ");
         int indice = leitura.nextInt();
         leitura.nextLine();

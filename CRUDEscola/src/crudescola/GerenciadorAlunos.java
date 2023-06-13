@@ -20,7 +20,7 @@ public class GerenciadorAlunos {
     }
     
     //Método utilizado para adicionar um aluno na lista de alunos matriculados
-    public void cadAluno(){
+    public void cadastrar(){
         //Solicita os atributos do aluno e salva em variáveis
         System.out.println("Informe os dados do aluno:");
         System.out.print("Nome: ");
@@ -41,7 +41,7 @@ public class GerenciadorAlunos {
     }
     
     //Método utilizado para mostrar ao usuário a lista de alunos matriculados
-    public void lerAlunos() {
+    public void visualizar() {
         System.out.println("Lista de alunos matriculados:");
         //Laço de repetição que percorre toda a lista
         for (int i = 0; i < alunos.size(); i++) {
@@ -56,7 +56,7 @@ public class GerenciadorAlunos {
     }
     
     //Método utilizado para editar os dados de um aluno passado seu índice
-    public void alterarAluno() {
+    public void alterar() {
         System.out.print("Digite o índice do aluno a ser alterado: ");
         int indice = leitura.nextInt();
         leitura.nextLine();
@@ -90,7 +90,7 @@ public class GerenciadorAlunos {
     }    
     
     //Método utilizado para eliminar um aluno da lista de alunos matriculados
-    public void excluirAluno() {
+    public void excluir() {
         System.out.print("Digite o índice do aluno a ser excluído: ");
         int indice = leitura.nextInt();
         leitura.nextLine();
