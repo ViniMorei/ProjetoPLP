@@ -3,9 +3,11 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/vinic/OneDrive/Documentos/NetBeansProjects/CRUDEscola/src/crudescola/CRUDEscola.java</file>
-            <file>file:/C:/Users/vinic/OneDrive/Documentos/NetBeansProjects/CRUDEscola/src/crudescola/GerenciadorProfessores.java</file>
-            <file>file:/C:/Users/vinic/OneDrive/Documentos/NetBeansProjects/CRUDEscola/src/crudescola/GerenciadorDiretor.java</file>
+            <file>file:/C:/Users/vinic/OneDrive/Documentos/NetBeansProjects/CRUDEscola/src/Telas/CadDiretor.java</file>
+            <file>file:/C:/Users/vinic/OneDrive/Documentos/NetBeansProjects/CRUDEscola/src/Telas/CadAluno.java</file>
+            <file>file:/C:/Users/vinic/OneDrive/Documentos/NetBeansProjects/CRUDEscola/src/Telas/CadProfessor.java</file>
+            <file>file:/C:/Users/vinic/OneDrive/Documentos/NetBeansProjects/CRUDEscola/src/Telas/CadTurma.java</file>
+            <file>file:/C:/Users/vinic/OneDrive/Documentos/NetBeansProjects/CRUDEscola/src/Telas/CadCoordenador.java</file>
         </group>
     </open-files>
 </project-private>

@@ -1,22 +1,24 @@
 package crudescola;
 
 import java.util.Scanner;
+import Telas.Principal;
 
 public class CRUDEscola {
 
     public static void main(String[] args) {
-       GerenciadorProfessores professores = new GerenciadorProfessores();
+       /*GerenciadorProfessores professores = new GerenciadorProfessores();
        GerenciadorDiretor diretor = new GerenciadorDiretor();
        GerenciadorCoordenadores coordenadores = new GerenciadorCoordenadores();
        GerenciadorTurmas turmas = new GerenciadorTurmas();
        GerenciadorAlunos alunos = new GerenciadorAlunos();
-       Scanner leitura = new Scanner(System.in);
+       Scanner leitura = new Scanner(System.in);*/
        
-       
+       Principal principal = new Principal();
+       principal.setVisible(true);
        
        int opcao = -1;
        int opcao2;
-       while (opcao != 0){
+       /*while (opcao != 0){
             System.out.println("=== Menu ===");
             System.out.println("1. Opcoes de cadastro");
             System.out.println("2. Opcoes de leitura");
@@ -116,6 +118,6 @@ public class CRUDEscola {
 
             System.out.println();
        }
-       
+       */
     }
 }

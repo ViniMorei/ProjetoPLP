@@ -19,6 +19,21 @@ public class GerenciadorAlunos {
         alunos.add(aluno);
     }
     
+    
+    public boolean salvar(Aluno aluno){
+        if (aluno != null){
+            alunos.add(aluno);
+            return true;
+        }else{
+            return false;
+        }
+    }
+    
+    public ArrayList<Aluno> retornarTodos(){
+        return alunos;
+    }
+    
+    
     //Método utilizado para adicionar um aluno na lista de alunos matriculados
     public void cadastrar(){
         //Solicita os atributos do aluno e salva em variáveis
